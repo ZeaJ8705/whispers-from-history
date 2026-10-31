@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cinzel+Decorative:wght@400;700&display=swap");
+
+:root {
+  --primary: #f5f1e8;
+  --secondary: #5b2333;
+  --tertiary: #b08d57;
+  --text-color: #342e2b;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--text-color);
+  font-family: "Berkshire Swash", Georgia, serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--secondary);
+  font-family: "Cinzel Decorative", Georgia, serif;
+}
+
+header {
+  border-bottom: 4px solid var(--tertiary);
+}
+
+.collection-card {
+  display: block;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+  border-radius: 10px;
+  padding: 24px;
+  max-width: 550px;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.collection-card:hover,
+.collection-card:focus-visible {
+  background-color: var(--tertiary);
+  box-shadow: 0 0 0 3px var(--secondary);
+}

@@ -1,0 +1,8 @@
+# macOS system files
+.DS_Store
+
+# Private research materials
+Research/
+
+# Personal project guides
+Guides/
