@@ -19,10 +19,16 @@ h2,
 h3 {
   color: var(--secondary);
   font-family: "Cinzel Decorative", Georgia, serif;
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }
 
 header {
   border-bottom: 4px solid var(--tertiary);
+  text-align: center;
 }
 
 .collection-card {
@@ -45,6 +51,18 @@ header {
   box-shadow: 0 0 0 6px var(--secondary);
 }
 
+.collection-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+
+.collection-grid > .collection-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .building-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -59,4 +77,77 @@ header {
   .building-grid {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+@media (min-width: 900px) {
+  .collection-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+main section {
+  margin-bottom: 48px;
+}
+
+.photo-placeholder {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16/9;
+  max-width: 760px;
+  padding: 16px;
+  background-color: rgba(176, 141, 87, 0.15);
+  border: 2px dashed var(--tertiary);
+  border-radius: 10px;
+  color: var(--secondary);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.building-article {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 12px;
+}
+
+header nav a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+header nav a:hover,
+header nav a:focus-visible {
+  text-decoration: underline;
+  text-decoration-color: var(--tertiary);
+  text-underline-offset: 5px;
+}
+
+.site-footer {
+  margin-top: 48px;
+  padding: 20px 16px;
+  border-top: 4px solid var(--tertiary);
+  text-align: center;
+  color: var(--secondary);
+}
+
+.site-footer p {
+  margin: 6px 0;
+}
+
+a:focus-visible {
+  outline: 3px solid var(--secondary);
+  outline-offset: 4px;
 }
