@@ -42,5 +42,21 @@ header {
 .collection-card:hover,
 .collection-card:focus-visible {
   background-color: var(--tertiary);
-  box-shadow: 0 0 0 3px var(--secondary);
+  box-shadow: 0 0 0 6px var(--secondary);
+}
+
+.building-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.building-card {
+  max-width: none;
+}
+
+@media (min-width: 700px) {
+  .building-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
