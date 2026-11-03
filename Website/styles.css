@@ -110,6 +110,33 @@ main section {
   margin-right: auto;
 }
 
+.featured-photo {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.featured-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.featured-photo figcaption {
+  margin-top: 10px;
+  color: var(--secondary);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.featured-photo figcaption a {
+  color: var(--secondary);
+  text-decoration: underline;
+  text-decoration-color: var(--tertiary);
+  text-underline-offset: 3px;
+}
+
 .building-article {
   max-width: 850px;
   margin: 0 auto;
