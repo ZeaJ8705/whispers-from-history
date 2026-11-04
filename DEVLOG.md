@@ -200,3 +200,59 @@
 - Practice additional front-end development concepts using the existing website.
 - Develop new functionality and interactive features as appropriate.
 - Continue updating DEVLOG.md and the skills tracker as progress is demonstrated.
+
+## Day 5 — November 3, 2026 (Continued)
+
+### Work Completed day 5 cont
+
+- Created the Historical Artifacts collection page.
+- Created six individual historical artifact pages corresponding to the six historical buildings.
+- Added historical descriptions, featured images, and image credits to the artifact pages.
+- Updated the homepage to include the Historical Artifacts collection.
+- Established navigation between the homepage, collection pages, and individual pages.
+- Added links connecting each building page to its corresponding artifact page.
+- Added links connecting each artifact page back to its corresponding building page.
+- Updated the shared CSS to center the related-content sections.
+- Reviewed image paths, navigation links, and relative file paths throughout the website.
+- Corrected inconsistent links, text, and page connections.
+- Independently reviewed and troubleshot HTML and CSS across the project.
+
+### Skills Practiced day 5 cont
+
+- Reading and interpreting existing HTML and CSS.
+- Tracing relative file paths across multiple directories.
+- Troubleshooting navigation and page connections.
+- Reusing existing CSS classes for consistent styling.
+- Maintaining consistency across multiple interconnected pages.
+- Reviewing and correcting code independently.
+- Using copy-and-paste efficiently while examining and understanding the code being implemented.
+
+### Problems and Solutions day 5 cont
+
+- **Problem:** Building and artifact pages needed direct connections.
+  - **Solution:** Added reciprocal links between the related pages and verified their destinations.
+- **Problem:** Related-content links needed consistent alignment.
+  - **Solution:** Updated the shared `.related-content` CSS rule to center the sections.
+- **Problem:** Managing multiple interconnected pages introduced opportunities for incorrect paths and inconsistent labels.
+  - **Solution:** Traced HTML links, reviewed the directory structure, and corrected errors.
+- **Problem:** Some artifact images required alternatives because their original photographs had reproduction restrictions.
+  - **Solution:** Used generated illustrations for artifact pages where verified reusable photographs were unavailable.
+
+### Current Project Status day 5 cont
+
+- Homepage and both collection pages completed.
+- Six historical building pages populated.
+- Six historical artifact pages populated.
+- All building and artifact pages connected.
+- Featured images included throughout the site.
+- Local file paths verified.
+- Shared styling and responsive layout established.
+- Ready to update the Git repository and push the current work to GitHub.
+
+### Next Steps day 5 cont
+
+- Commit and push the latest changes to GitHub.
+- Complete final responsive and accessibility testing.
+- Review documentation and prepare the website for publication.
+- Continue learning JavaScript and other front-end development skills.
+- Maintain the DEVLOG and skills tracker as development continues.

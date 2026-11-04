@@ -178,3 +178,7 @@ a:focus-visible {
   outline: 3px solid var(--secondary);
   outline-offset: 4px;
 }
+
+.related-content {
+  text-align: center;
+}
