@@ -319,3 +319,35 @@ The JavaScript search feature introduced connections between HTML, CSS, and Java
 - Configure public website hosting.
 - Verify that the published website functions correctly.
 - Mark Version 1.0 complete.
+
+---
+
+## Day 8 — November 6, 2026 (Publication)
+
+### Work Completed
+
+- Completed final website testing and corrections.
+- Updated the project README and development log.
+- Committed and pushed the completed website to GitHub.
+- Configured GitHub Actions for automatic deployment.
+- Successfully deployed the website using GitHub Pages.
+- Opened and tested the publicly accessible website.
+- Confirmed successful publication of Whispers from History Version 1.0.
+
+### Final Project Reflection
+
+Whispers from History was developed as a hands-on front-end programming project. Throughout development, I gained experience writing, reading, troubleshooting, and maintaining HTML, CSS, and JavaScript.
+
+I became more confident navigating an interconnected website, understanding how different files and technologies work together, and independently making modifications and corrections.
+
+The completed project demonstrates my developing front-end skills and provides a finished portfolio example.
+
+### Final Project Status
+
+## Whispers from History — Version 1.0: COMPLETE
+
+Publication date: November 6, 2026
+
+Live website: [https://zeaj8705.github.io/whispers-from-history/](https://zeaj8705.github.io/whispers-from-history/)
+
+The project has reached its intended completion point.

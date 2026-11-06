@@ -64,3 +64,9 @@ Image sources and credits are provided on their corresponding pages.
 ## Project Status
 
 Version 1.0 — Final review completed; preparing for public deployment.
+
+**Version 1.0 — Completed and published November 6, 2026.**
+
+Live website: [Whispers from History](https://zeaj8705.github.io/whispers-from-history/)
+
+This project is complete.
