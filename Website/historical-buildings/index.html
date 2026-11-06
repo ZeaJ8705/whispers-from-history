@@ -31,6 +31,16 @@
       <section>
         <h2>Choose a Building</h2>
 
+        <div class="collection-search">
+          <label for="collection-search-input"> Search this collection </label>
+
+          <input
+            type="search"
+            id="collection-search-input"
+            placeholder="Enter a name or location..."
+          />
+        </div>
+
         <div class="building-grid">
           <a class="collection-card building-card" href="winchester.html">
             <h3>Winchester House</h3>
@@ -65,11 +75,17 @@
             <p>Salem, Massachusetts</p>
           </a>
         </div>
+
+        <p id="search-no-results" hidden role="status">
+          No matching items found. Try another search.
+        </p>
       </section>
     </main>
     <footer class="site-footer">
       <p>Whispers from History</p>
       <p>Exploring the past through history and evidence.</p>
     </footer>
+
+    <script src="../script.js"></script>
   </body>
 </html>

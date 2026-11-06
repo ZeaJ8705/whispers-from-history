@@ -182,3 +182,37 @@ a:focus-visible {
 .related-content {
   text-align: center;
 }
+
+/* Collection search */
+
+.collection-search {
+  max-width: 550px;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+.collection-search label {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--secondary);
+}
+
+.collection-search input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  border: 2px solid var(--secondary);
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: var(--text-color);
+  font: inherit;
+}
+
+.collection-search input:focus-visible {
+  outline: 3px solid var(--tertiary);
+  outline-offset: 3px;
+}
+
+.building-card.is-hidden {
+  display: none;
+}

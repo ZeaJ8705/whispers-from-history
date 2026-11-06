@@ -31,6 +31,16 @@
       <section>
         <h2>Choose an Artifact</h2>
 
+        <div class="collection-search">
+          <label for="collection-search-input"> Search this collection </label>
+
+          <input
+            type="search"
+            id="collection-search-input"
+            placeholder="Enter a name or location..."
+          />
+        </div>
+
         <div class="building-grid">
           <a class="collection-card building-card" href="spiderweb-window.html">
             <h3>Spiderweb Stained-Glass Window</h3>
@@ -54,7 +64,7 @@
 
           <a class="collection-card building-card" href="steamer-trunk.html">
             <h3>Anna Whaley's Steamer Trunk</h3>
-            <p>A historical artifact from the Whaley house..</p>
+            <p>A historical artifact from the Whaley house.</p>
           </a>
 
           <a class="collection-card building-card" href="armchair.html">
@@ -62,11 +72,17 @@
             <p>A historical artifact from the House of the Seven Gables.</p>
           </a>
         </div>
+
+        <p id="search-no-results" hidden role="status">
+          No matching items found. Try another search.
+        </p>
       </section>
     </main>
     <footer class="site-footer">
       <p>Whispers from History</p>
       <p>Exploring the past through history and evidence.</p>
     </footer>
+
+    <script src="../script.js"></script>
   </body>
 </html>

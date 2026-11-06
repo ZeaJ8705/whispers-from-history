@@ -78,16 +78,6 @@
 - Replaced unfinished research links with non-interactive placeholders.
 - Created project-specific and reusable website planning blueprints.
 
-### New Concepts Practiced day 3
-
-- Semantic HTML using `<article>` and `<footer>`
-- CSS Grid alignment and responsive breakpoints
-- FlexBox navigation alignment
-- Centering text versus centering elements
-- Shared CSS classes and reusable layouts
-- Keyboard accessibility and `:focus-visible`
-- Organizing HTML and CSS using visual blueprints
-
 ### Problems and Solutions day 3
 
 - **Problem:** Homepage collection cards were aligned to the left on narrower screens.
@@ -119,17 +109,6 @@
 - Reviewed the Winchester page in Live Server to verify image placement, sizing, spacing, and captions.
 - Continued preparing historical content and photographs for the remaining building pages.
 - Reviewed the new 52-week web development curriculum and skills tracker, recording previously encountered and independently demonstrated skills.
-
-### New Concepts Practiced day 4
-
-- Semantic HTML using `<figure>`, `<img>`, and `<figcaption>`.
-- Relative image file paths.
-- Alternative text for image accessibility.
-- Responsive image sizing using `width: 100%` and `height: auto`.
-- CSS styling for photograph captions and attribution links.
-- Reusing shared CSS classes across multiple pages.
-- Understanding Creative Commons attribution requirements.
-- Evaluating completed development work against a structured skills curriculum.
 
 ### Problems and Solutions day 4
 
@@ -164,16 +143,6 @@
 - Added historical information and a featured photograph to the House of the Seven Gables page.
 - Updated the Historical Buildings collection page to replace the Research in Planning placeholder with a functioning link to the new building page.
 - Confirmed that the website's current content and development work were caught up.
-
-### New Concepts Practiced day 5
-
-- Reusing an existing HTML page structure to create additional pages.
-- Maintaining consistent styling across multiple HTML documents.
-- Organizing image assets inside the website's images directory.
-- Creating and testing relative links between collection pages and individual building pages.
-- Implementing consistent photograph components using shared CSS.
-- Expanding an existing website without rebuilding its structure.
-- Maintaining consistency across a multi-page website.
 
 ### Problems and Solutions day 5
 
@@ -256,3 +225,97 @@
 - Review documentation and prepare the website for publication.
 - Continue learning JavaScript and other front-end development skills.
 - Maintain the DEVLOG and skills tracker as development continues.
+
+---
+
+## Day 6 — November 4, 2026
+
+### Work Completed day 6
+
+- Created `script.js` and connected it to the website.
+- Used Chrome Developer Tools to verify that JavaScript was loading correctly.
+- Practiced selecting HTML elements through JavaScript.
+- Experimented with creating a decorative lightning effect using SVG, CSS, and JavaScript.
+- Troubleshot SVG rendering, CSS visibility, and JavaScript timing.
+
+### Problems and Solutions day 6
+
+- **Problem:** JavaScript initially failed to load because of an incorrect file connection.
+  - **Solution:** Used the browser Console to identify the missing file and corrected the path.
+- **Problem:** The SVG lightning effect did not behave consistently.
+  - **Solution:** Investigated the behavior using CSS changes and JavaScript debugging. Ultimately decided not to include the feature.
+
+### Development Reflection day 6
+
+SVG was a new concept that introduced another way to create graphics for websites. Although the lightning effect was unsuccessful, the experiment provided experience with JavaScript, the DOM, browser debugging, and troubleshooting.
+
+---
+
+## Day 7 — November 5, 2026
+
+### Work Completed day 7
+
+- Removed the abandoned lightning feature.
+- Retained the shared JavaScript file for a new interactive feature.
+- Added search fields to the Historical Buildings and Historical Artifacts collection pages.
+- Styled the search fields using the existing color palette and CSS variables.
+- Implemented functional, live JavaScript search filtering.
+- Added feedback messages for searches that return no results.
+- Tested the search functionality on both collection pages.
+
+### Problems and Solutions day 7
+
+- **Problem:** The lightning effect was not working as intended.
+  - **Solution:** Removed the feature and selected a more practical JavaScript application.
+- **Problem:** The search needed to work on two separate collection pages.
+  - **Solution:** Reused one JavaScript file with shared HTML identifiers and CSS classes.
+- **Problem:** Searches without matches left the collection empty without explanation.
+  - **Solution:** Added a dynamically displayed No Results message.
+
+### Development Reflection day 7
+
+The JavaScript search feature introduced connections between HTML, CSS, and JavaScript. Understanding the sequence of events, how information moves through functions, and how JavaScript changes the display was particularly important.
+
+---
+
+## Day 8 — November 6, 2026
+
+### Work Completed day 8
+
+- Reviewed the completed website before publication.
+- Corrected the missing search-results message on the Historical Buildings collection page.
+- Reviewed artifact image captions for historical accuracy and appropriate identification of generated illustrations.
+- Corrected minor content inconsistencies.
+- Tested responsive layouts at mobile, tablet, and desktop widths.
+- Checked keyboard navigation and focus indicators.
+- Checked browser Console output for JavaScript errors.
+- Reviewed image alternative text.
+- Confirmed that the website's existing functionality behaved correctly during testing.
+- Prepared project documentation for publication.
+
+### Problems and Solutions day 8
+
+- **Problem:** The Historical Buildings collection was missing the No Results message expected by JavaScript.
+  - **Solution:** Added the corresponding HTML element.
+- **Problem:** Generated artifact illustrations needed to be clearly distinguished from photographs of historical objects.
+  - **Solution:** Updated applicable image captions.
+- **Problem:** The completed website needed to be checked across different devices and interaction methods.
+  - **Solution:** Tested responsive behavior, navigation, keyboard accessibility, and JavaScript functionality.
+
+### Current Project Status day 8
+
+- Fifteen HTML pages completed.
+- Six historical building pages and six artifact pages populated.
+- Both collection pages functional.
+- JavaScript search feature completed.
+- Responsive and accessibility checks completed.
+- Final documentation being prepared.
+- Project ready for GitHub update and deployment preparation.
+
+### Remaining Steps day 8
+
+- Save and review project documentation.
+- Commit and push final project changes.
+- Configure public website hosting.
+- Verify that the published website functions correctly.
+- Mark Version 1.0 complete.
